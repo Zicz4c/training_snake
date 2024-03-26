@@ -1,0 +1,7 @@
+{
+
+"javascript.suggest.alwaysAllWords": true,
+
+
+"javascript.suggest.completeFunctionCalls": true
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <![endif]-->
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Javascript snake training</title>
+    <meta name="description" content="little snake game in Javascript">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="">
+    <script src="../logic/snake_util.js"></script>
+    <script src="../logic/snake_game_logic.js"></script>
+  </head>
+  <body>
+    <canvas width="400" height="400" id="game_area" class="game_area_style"></canvas>
+    
+    <script>
+      initGame("game_area");
+      runGame();
+    </script>
+    
+  </body>
+</html>
